@@ -43,13 +43,10 @@ Bu proje, Python kodlarını analiz edip Türkçe olarak açıklayan bir yapay z
       FIREWORKS_API_KEY=your_fireworks_key_here
       ```
 
-           ```env
+      ````env
+      GEMINI_API_KEY=your_fireworks_key_here```
 
-      GEMINI_API_KEY=your_fireworks_key_here
-
-      ```
-
-      ```
+      ````
 
     - HuggingFace için terminalden giriş yapın ve api keyinizi girin:
       ```bash
