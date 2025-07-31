@@ -102,3 +102,4 @@ Bu proje, Python kodlarını analiz edip Türkçe olarak açıklayan bir yapay z
 - Backend ve frontend aynı makinede çalışıyorsa CORS ayarları hazırdır.
 - Geliştirme sırasında backend ve frontend'i ayrı terminallerde başlatın.
 - Token limiti ve model ayarları için backend `clients.py` dosyasını düzenleyebilirsiniz.
+- Sistem promptunu düzenlemek istiyorsanız `routes.py` dosyasını düzeltebilirsiniz.
