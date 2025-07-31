@@ -43,10 +43,10 @@ Bu proje, Python kodlarını analiz edip Türkçe olarak açıklayan bir yapay z
       FIREWORKS_API_KEY=your_fireworks_key_here
       ```
 
-      ````env
-      GEMINI_API_KEY=your_fireworks_key_here```
+      ```env
+      GEMINI_API_KEY=your_fireworks_key_here
 
-      ````
+      ```
 
     - HuggingFace için terminalden giriş yapın ve api keyinizi girin:
       ```bash
@@ -94,8 +94,6 @@ Bu proje, Python kodlarını analiz edip Türkçe olarak açıklayan bir yapay z
 - Model seçimi: Llama 3, Qwen3-235B, Gemini
 - Konuşma özeti ile bağlamlı açıklama
 - Markdown destekli render
-- Kopyalama özelliği ve otomatik textarea büyüme
-- Kod gönderimi: Enter, Yeni satır: Shift+Enter
 
 ---
 
@@ -103,4 +101,4 @@ Bu proje, Python kodlarını analiz edip Türkçe olarak açıklayan bir yapay z
 
 - Backend ve frontend aynı makinede çalışıyorsa CORS ayarları hazırdır.
 - Geliştirme sırasında backend ve frontend'i ayrı terminallerde başlatın.
-- Token limiti ve model ayarları için backend `main.py` dosyasını düzenleyebilirsiniz.
+- Token limiti ve model ayarları için backend `clients.py` dosyasını düzenleyebilirsiniz.
